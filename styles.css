@@ -284,10 +284,11 @@ footer {
     #header {
         flex-direction: column;
         gap: 1.5rem;
+        padding: 10px;
     }
 
     #nav-bar ul li a {
-        padding: 1rem;
+        padding: 5px;
     }
 
     #header i {
@@ -295,11 +296,11 @@ footer {
     }
 
     #hero .hero-container {
-        padding: 8rem 5rem 3rem;
+        padding: 8rem 2rem 3rem;
     }
     
     #hero .hero-container h1 {
-        font-size: 3.18rem;
+        font-size: 3rem;
     }
 
     #news {
@@ -323,9 +324,8 @@ footer {
     }
 
     #catalog .catalog-container {
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(3,1fr);
-        justify-content: space-evenly;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
         gap: 1rem;
     }
 }
